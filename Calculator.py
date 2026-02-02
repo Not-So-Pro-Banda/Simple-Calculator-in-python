@@ -1,6 +1,6 @@
 a = eval(input("Enter a number"))
 b = eval(input("Enter another number"))
-operator = input("Enter a operator")
+operator = input("What do you want to do? + , - , * , / ")
 if operator == "+":
     print(a+b)
 elif operator == "-":
