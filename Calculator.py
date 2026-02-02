@@ -1,5 +1,5 @@
-a = eval(input("Enter a number"))
-b = eval(input("Enter another number"))
+a = eval(input("Enter a number: "))
+b = eval(input("Enter another number: "))
 operator = input("What do you want to do? + , - , * , / ")
 if operator == "+":
     print(a+b)
@@ -12,4 +12,4 @@ elif operator == "/":
 elif operator == "%":
     print(a%b)
 else:
-print("Invalid operator")
+print("Invalid operator.")
